@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "donttouch:slip_stone"
+    ],
+    "experience": 100
+  }
+}

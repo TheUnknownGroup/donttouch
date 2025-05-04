@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "xyz.theunknowngroup.mixin",
+	"compatibilityLevel": "JAVA_19",
+	"mixins": [
+		"StickyMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

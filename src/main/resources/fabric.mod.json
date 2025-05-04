@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "donttouch",
+	"version": "${version}",
+	"name": "Don't Touch Me!",
+	"description": "A block with boundaries.",
+	"authors": [
+		"TheGremlinX"
+	],
+	"contact": {
+		"homepage": "https://web.thegremlinx.xyz/",
+		"sources": "https://github.com/TheUnknownGroup/DontTouchMe"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/donttouch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.theunknowngroup.DontTouch"
+		],
+		"client": [
+			"xyz.theunknowngroup.DontTouchClient"
+		]
+	},
+	"mixins": [
+		"donttouch.mixins.json",
+		{
+			"config": "donttouch.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${fabload}",
+		"minecraft": "~${mcver}",
+		"java": ">=${javaver}",
+		"fabric": "*"
+	},
+	"suggests": {
+		"dashloader": "*",
+		"unknown-mod": "*"
+	}
+}

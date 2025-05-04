@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "xyz.theunknowngroup.mixin.client",
+	"compatibilityLevel": "JAVA_19",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
