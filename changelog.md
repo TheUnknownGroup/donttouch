@@ -1,17 +1,21 @@
+## Version Information
+
 Version 0.0.0+build.1 for MCV 1.19
 
 This is the first version of our mod, ```Don't Touch Me!```, it requires Java 19, you can download it [here](https://adoptium.net/temurin/releases/?package=jdk&version=19)
 
 ## What does this mod bring to the table?
 Currently, there are a few functions of the mod, and they are the following:
-- A new block:
-    Its tweaks include:
-        - Illumination -- Has a light level of 10
-        - Capable of being broken swiftly
-        - A very high blast resistance
-        - Edible -v
-            This block allows you to eat it at any time, gaining you 50 hunger points & a glowing affect. 
-          
-            You're also able to feed it to dogs.
+
+### A new block:
+Its tweaks include:
+``` 
+- Illumination (Has a light level of 10)
+- Capable of being broken swiftly
+- A very high blast resistance
+- Edible:
+    This block allows you to eat it at any time, gaining you 50 hunger points & a glowing affect. 
+    You're also able to feed it to dogs.
+```
 
 This block & the rest of the mod will have more additions soon but currently that is all.

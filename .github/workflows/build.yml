@@ -9,7 +9,7 @@ on:
 env:
   java_ver: "19"
   ver: "v0.0.0 MCV-1.19 Fabric"
-  tag: "0.0.0-1.19+build.1"
+  tag: "0.0.0-1.19+build.1-test"
 
 jobs:
   build:
@@ -37,6 +37,13 @@ jobs:
       - name: build jar
         run: ./gradlew build
 
+      - name: publish to modrinth
+        if: ${{ contains(github.event.head_commit.message, '[m]') }}
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run:
+          ./gradlew modrinth -Ptoken="${{ env.TOKEN }}"
+      
       - name: capture build artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -62,7 +69,7 @@ jobs:
       - name: create release
         uses: softprops/action-gh-release@v2
         with:
-          name: Unknown Mod ${{ env.ver }}
+          name: Don't Touch Me! Mod ${{ env.ver }}
           tag_name: ${{ env.tag }}
           body_path: ${{ github.workspace }}/changelog.md
           draft: true
