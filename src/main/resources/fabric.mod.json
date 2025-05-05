@@ -11,7 +11,7 @@
 		"homepage": "https://web.thegremlinx.xyz/",
 		"sources": "https://github.com/TheUnknownGroup/DontTouchMe"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/donttouch/icon.png",
 	"environment": "*",
 	"entrypoints": {
