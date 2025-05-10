@@ -1,8 +1,8 @@
 ## Version Information
 
-Version 0.0.0+build.2 for MCV 1.19
+Version 0.0.0+build.1 for MCV 1.21
 
-This is a fix for our mod, ```Don't Touch Me!```, it requires Java 19, you can download the JDK [here](https://adoptium.net/temurin/releases/?package=jdk&version=19)
+This is a new version for our mod, ```Don't Touch Me!```, it requires Java 21, you can download the JDK [here](https://adoptium.net/temurin/releases/?package=jdk&version=21)
 
 ## What does this mod bring to the table?
 Currently, there are a few functions of the mod, and they are the following:

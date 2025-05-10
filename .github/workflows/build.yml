@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
 
 env:
-  java_ver: "19"
-  ver: "v0.0.0 MCV-1.19 Fabric"
-  tag: "0.0.0-1.19+build.2"
+  java_ver: "21"
+  ver: "v0.0.0 MCV-1.21 Fabric"
+  tag: "0.0.0-1.21+build.1"
 
 jobs:
   build:

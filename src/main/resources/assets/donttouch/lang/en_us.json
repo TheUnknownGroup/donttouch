@@ -1,3 +1,5 @@
 {
-  "block.donttouch.slip_stone": "Slip Stone Block"
+  "block.donttouch.slip_stone": "Slip Stone Block",
+  "item.donttouch.slip_napkin": "Slip Napkin",
+  "itemGroup.donttouch.dont": "DontTouchMe Tab"
 }

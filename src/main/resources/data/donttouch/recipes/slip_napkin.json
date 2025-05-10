@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        " S ",
+        "#L#"
+    ],
+    "key": {
+        "#": {
+            "item": "donttouch:slip_stone"
+        },
+        "L": {
+            "item": "minecraft:ladder"
+        },
+        "S": {
+            "item": "minecraft:scaffolding"
+        }
+    },
+    "result": {
+        "item": "donttouch:slip_napkin",
+        "count": 1
+    }
+}

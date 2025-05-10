@@ -11,7 +11,8 @@
   ],
   "rewards": {
     "recipes": [
-      "donttouch:slip_stone"
+      "donttouch:slip_stone",
+      "donttouch:slip_napkin"
     ],
     "experience": 100
   }
