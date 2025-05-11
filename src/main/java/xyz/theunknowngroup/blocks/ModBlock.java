@@ -1,28 +1,16 @@
 package xyz.theunknowngroup.blocks;
 
 import net.minecraft.block.*;
-import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.sound.BlockSoundGroup;
 import xyz.theunknowngroup.DontTouch;
-
-import static xyz.theunknowngroup.registry.RegistryHandler.registerBlock;
+import xyz.theunknowngroup.custom.SlipStone;
+import xyz.theunknowngroup.registry.RegistryHandler;
 
 public class ModBlock {
     public static String MOD_NAME = DontTouch.MOD_NAME;
     public static String MOD_ID = DontTouch.MOD_ID;
 
-    public static final Block SLIP_STONE = registerBlock(new Block(
-            AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK).sounds(BlockSoundGroup.STONE)
-                    .solid().pistonBehavior(PistonBehavior.BLOCK).resistance(10000000).luminance(ModBlock::getLuminance)),
+    public static final Block SLIP_STONE = RegistryHandler.registerBlock(new SlipStone(SlipStone.blockCreate()),
             "slip_stone", true);
-
-    public static int getLuminance(BlockState current) {
-        return 10;
-    }
-
-    public static void addToGroup() {
-
-    }
 
     public static void registerModBlocks() {
         DontTouch.LOGGER.info("[{}] Registering mod blocks for {}.", MOD_NAME, MOD_ID);

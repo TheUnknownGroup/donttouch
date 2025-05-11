@@ -1,5 +1,6 @@
 package xyz.theunknowngroup.remake;
 
+import net.fabricmc.fabric.api.item.v1.EquipmentSlotProvider;
 import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.component.type.FoodComponent;
@@ -54,6 +55,11 @@ public class CustomItemSettings extends Item.Settings {
 
     public CustomItemSettings attributeModifiers(AttributeModifiersComponent attributeModifiersComponent) {
         super.attributeModifiers(attributeModifiersComponent);
+        return this;
+    }
+
+    public CustomItemSettings equipmentSlot(EquipmentSlotProvider equipmentSlotProvider) {
+        super.equipmentSlot(equipmentSlotProvider);
         return this;
     }
 }

@@ -10,11 +10,5 @@ import xyz.theunknowngroup.blocks.ModBlock;
 
 @Mixin(PistonHandler.class)
 public class StickyMixin {
-	@Inject(method = "isBlockSticky", at = @At("HEAD"), cancellable = true)
-	private static void makeSlipStoneNonSticky(BlockState state,
-	   CallbackInfoReturnable<Boolean> cir) {
-		if (state.getBlock() == ModBlock.SLIP_STONE) {
-			cir.setReturnValue(false);
-		}
-	}
+
 }

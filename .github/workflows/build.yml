@@ -8,8 +8,8 @@ on:
 
 env:
   java_ver: "21"
-  ver: "v0.0.0 MCV-1.21 Fabric"
-  tag: "0.0.0-1.21+build.1"
+  ver: "v0.0.1 MCV-1.21 Fabric"
+  tag: "0.0.1-1.21+build.1"
 
 jobs:
   build:

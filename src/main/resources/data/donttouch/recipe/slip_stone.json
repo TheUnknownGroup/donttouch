@@ -15,7 +15,7 @@
         }
     ],
     "result": {
-        "item": "donttouch:slip_stone",
+        "id": "donttouch:slip_stone",
         "count": 3
     }
 }
